@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A3863E592F19321600145599 /* FoodClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = A3863E582F19321600145599 /* FoodClassifier.mlpackage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A3863E242F19313400145599 /* AIRecipeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIRecipeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3863E582F19321600145599 /* FoodClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = FoodClassifier.mlpackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		A3863E1B2F19313400145599 = {
 			isa = PBXGroup;
 			children = (
+				A3863E582F19321600145599 /* FoodClassifier.mlpackage */,
 				A3863E262F19313400145599 /* AIRecipeFinder */,
 				A3863E252F19313400145599 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3863E592F19321600145599 /* FoodClassifier.mlpackage in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
